@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1761554937 source:c:\users\20110\onedrive\desktop\iti46\lab9_person_emp_std\main.cpp
+	<iostream>
+	<string.h>
+

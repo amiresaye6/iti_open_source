@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1761132722 source:c:\users\20110\onedrive\desktop\iti46\lab4\main.cpp
+	<iostream>
+	<windows.h>
+	<conio.h>
+
