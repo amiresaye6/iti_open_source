@@ -1,0 +1,48 @@
+zagazig university examination adn evaluation system
+target users:
+	head of scientfific departments
+	professors of each departments
+	undergraduates
+	post graduates
+parts:
+	question bank
+	exams
+	courses
+	departments
+user stories:
+	professor can make an exam using questins from question bank
+	professor can teach one or more courses
+	course can be tought by one or more professors
+	students can access system using user name and pass
+	students can anser exams
+	studetns can evaluate courses
+	studetns can eavaluate professors
+	system should calculate exam resluts automatically.
+
+
+attributes:
+employee or professors >> done
+students>> done
+courses>> done
+questions>> done
+exams>> done
+departments>> done
+
+
+
+
+
+question bank >> questions1, question 2,question 3
+qu1 >> qeuzxtin ? < choises, correct anser, id, grade;
+exam>> q1, q2, q3
+
+
+
+
+
+
+
+
+
+
+Q1 >> ans1, ans2, ans3, ans4
