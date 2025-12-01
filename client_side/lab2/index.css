@@ -1,0 +1,48 @@
+*:hover {
+    border-color: red;
+}
+
+body {
+    background-color: wheat;
+}
+
+input {
+    border-color: blue;
+}
+
+h1,
+h2,
+h3 {
+    color: sienna;
+}
+
+form {
+    background-color: rgb(237, 170, 62);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.submitbtn {
+    background-color: lightgreen;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.resetbtn {
+    background-color: lightcoral;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.savebtn {
+    background-color: lightyellow;
+
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
