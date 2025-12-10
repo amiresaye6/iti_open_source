@@ -1,0 +1,5 @@
+gnome-initial-setup:
+games:games
+gdm:GNOME Display Manager
+gnome-remote-desktop:GNOME Remote Desktop
+geoclue:User for geoclue

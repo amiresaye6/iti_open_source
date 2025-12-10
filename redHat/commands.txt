@@ -1,0 +1,213 @@
+    1  ls
+    2  cd 
+    3  ls
+    4  clear
+    5  cat hellow world
+    6  ech hellow world
+    7  echo "hello world"
+    8  clear
+    9  npm i chroom
+   10  apt install chroom
+   11  sudo apt install chroom
+   12      wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+   13      sudo dnf localinstall ./google-chrome-stable_current_x86_64.rpm
+   14      google-chrome &
+   15  sudo dnf install gnome-tweaks
+   16  clear
+   17  ls
+   18  pwd
+   19  ls
+   20  pwd
+   21  sudo dnf install gnome-tweaks
+   22  sudo subscription-manager repos --enable codeready-builder-for-rhel-10-x86_64-rpms
+   23  sudo dnf install gnome-tweaks
+   24  ؤمثشق
+   25  clear
+   26  gnome-extensions-app
+   27  sudo dnf install gnome-shell-extension-apps-menu
+   28  sudo dnf install gnome-extensions-app
+   29  gnome-extensions-app
+   30  sudo dnf install gnome-shell-extension-ding
+   31  sudo dnf install gnome-classic-session
+   32  sudo dnf install gnome-shell-extension-common
+   33  history 
+   34  google-chrome &
+   35  ls
+   36  pwd
+   37  cd Desktop/
+   38  ls
+   39  clear
+   40  touch hi.txt
+   41  ls Desktop/
+   42  rm Desktop/hi.txt 
+   43  ls
+   44  clear
+   45  ls
+   46  vim  google.sh
+   47  chmod +x google
+   48  chmod +x google.sh 
+   49  ./google.sh 
+   50  sudo subscription-manager register
+   51  sudo subscription-manager attach --auto
+   52  sudo subscription-manager list --available
+   53  sudo subscription-manager status
+   54  sudo subscription-manager list --available --all
+   55  sudo subscription-manager attach --pool=<POOL_ID>
+   56  ping -c 4 google.com
+   57  curl -I https://subscription.rhsm.redhat.com
+   58  sudo systemctl restart NetworkManager
+   59  sudo systemctl disable NetworkManager-wait-online.service
+   60  clear
+   61  sudo dnf install flatpak
+   62  flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+   63  flatpak install flathub com.mattjakeman.ExtensionManager
+   64  clear
+   65  exit
+   66  ls
+   67  google-chrome $
+   68  google-chrome
+   69  sudo dnf install okular
+   70  sudo dnf install evince
+   71  clear
+   72  exit
+   73  history
+   74  [200~flatpak install flathub com.mattjakeman.ExtensionManager
+   75  ~sudo dnf install flatpak
+   76  sudo dnf install flatpak
+   77  flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+   78  flatpak install flathub com.mattjakeman.ExtensionManager
+   79  sudo systemctl restart NetworkManager
+   80  sudo nmcli connection show
+   81  sudo nmcli connection up "Wired connection 1"
+   82  sudo dhclient -r
+   83  sudo dhclient
+   84  nmcli device
+   85  sudo nmcli connection down enp0s20f0u3c2
+   86  sudo nmcli connection modify enp0s20f0u3c2 connection.autoconnect no
+   87  ls
+   88  rm -rf google-chrome-stable_current_x86_64.rpm 
+   89  rm google.sh 
+   90  ls
+   91  clear
+   92  ls
+   93  clear
+   94  sudo dnf install ffmpeg
+   95  su - notAmir 
+   96  cat /etc/passwd
+   97  head
+   98  clear
+   99  head -1 /etc/passwd
+  100  ls
+  101  su
+  102  clear
+  103  su
+  104  ls
+  105  whoami
+  106  su
+  107  ls head -1 /etc/shadow
+  108  head -1 /etc/shadow
+  109  sudo head -1 /etc/shadow
+  110  su
+  111  clear
+  112  history
+  113  clear
+  114  ech " adding new user to the system"
+  115  echo " adding new user to the system"
+  116  useradd notAmir -c "comment>> not amir alsayed" -s /bin/ksh -md "/home/notAmirHomeDirectory" 
+  117  sudo useradd notAmir -c "comment>> not amir alsayed" -s /bin/ksh -md "/home/notAmirHomeDirectory" 
+  118  ls /bin/*sh
+  119  sudo useradd notAmir -c "comment>> not amir alsayed" -s /bin/sh -md "/home/notAmirHomeDirectory" 
+  120  tail -1 /etc/passwd
+  121  ls /home/
+  122  sudo userdel -r notAmir 
+  123  ls /home/
+  124  tail -1 /etc/passwd
+  125  sudo useradd notAmir -c "comment>> not amir alsayed" -s /bin/sh -md "/home/notAmirHomeDirectory" 
+  126  passwd notAmir
+  127  sudo passwd notAmir 
+  128  history
+  129  sudo passwd notAmir 
+  130  echo "su - username  >> this will login to this user usig apssword"
+  131  usermod notAmir -s /bin/bash
+  132  sudo usermod notAmir -s /bin/bash
+  133  tail -1 /etc/passwd
+  134  usermod -l
+  135  sudo usermod -L notAmir 
+  136  echo "locked user not amir, can not login again to it"
+  137  sudo usermod -U notAmir 
+  138  echo "return it again"
+  139  sudo chage -l notAmir 
+  140  sudo chage -h
+  141  sudo chage -m 3 notAmir 
+  142  sudo chage -l notAmir 
+  143  sudo chage -m 0 notAmir 
+  144  sudo chage -d 2025-11-28
+  145  sudo chage -d 2025-11-28 notAmir
+  146  sudo chage -l notAmir 
+  147  sudo chage -E  2025-11-28 notAmir
+  148  sudo chage -l notAmir 
+  149  sudo chage -E  2025-11-26 notAmir
+  150  sudo chage -E  2025-11-30 notAmir
+  151  sudo chage -I 2025-11-30 notAmir 
+  152  sudo dnf install cmatrix
+  153  sudo dnf install epel-release
+  154  cat /etc/gshadow
+  155  sudo cat /etc/gshadow
+  156  sudo groupadd -g 30003 botato
+  157  sudo cat /etc/gshadow
+  158  id notAmir 
+  159  usermod --help
+  160  sudo usermod -G botato notAmir 
+  161  id notAmir 
+  162  sudo chage -l notAmir 
+  163  id amiralsayed 
+  164  touch test
+  165  ls -l
+  166  rm test 
+  167  ls
+  168  touch testChangingGroups
+  169  ls -l
+  170  ls -la testChangingGroups 
+  171  chmod notAmir testChangingGroups 
+  172  chmod :notAmir testChangingGroups 
+  173  chown :notAmir testChangingGroups 
+  174  chown notAmir testChangingGroups 
+  175  sudo chown :notAmir testChangingGroups 
+  176  ls -la testChangingGroups 
+  177  sudo chown :botato testChangingGroups 
+  178  ls -la testChangingGroups 
+  179  sudo chown notAmir:botato testChangingGroups 
+  180  ls -la testChangingGroups 
+  181  mkdir testDir
+  182  ls -la testDir/
+  183  ls -la
+  184  pwd
+  185  ls
+  186  ls -l
+  187  ls /home/notAmirHomeDirectory/
+  188  chmod u=r testChangingGroups 
+  189  sudo chown amiralsayed:amiralsayed testChangingGroups 
+  190  ls -l testChangingGroups 
+  191  chmod u=r testChangingGroups 
+  192  ls -l testChangingGroups 
+  193  chmod g-r testChangingGroups 
+  194  ls -l testChangingGroups 
+  195  chmod u=rwx, g=rw, 0+rwx
+  196  chmod u=rwx, g=rw, 0+rwx testChangingGroups 
+  197  chmod u=rw, g=rw, 0+rwx testChangingGroups 
+  198  ls -ld testDir/
+  199  ls
+  200  ls -l testChangingGroups 
+  201  chmod 777 testChangingGroups 
+  202  ls -l testChangingGroups 
+  203  chmod 000 testChangingGroups 
+  204  rm testChangingGroups 
+  205  ls
+  206  rm -r testChangingGroups 
+  207  chmod +X testChangingGroups 
+  208  ls -l testChangingGroups 
+  209  chmod +x testChangingGroups 
+  210  ls -l testChangingGroups 
+  211  chmod 777 testChangingGroups 
+  212  ls -l testChangingGroups 
+  213  history >> commands.txt
