@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab3 js</title>
+</head>
+
+<body>
+    <script>
+        console.log(`printing var number1 value before delcaring it in external file ${number1}`);
+        console.log(`printing var number2 value before delcaring it in external file ${number2}`);
+        console.log(`printing var number3 value before delcaring it in external file ${number3}`);
+
+    </script>
+    <script src="./External.js"></script>
+    <script>
+        console.log(`printing var number1 value after delcaring it in external file ${number1}`);
+        console.log(`printing var number2 value after delcaring it in external file ${number2}`);
+        console.log(`printing var number3 value after delcaring it in external file ${number3}`);
+    </script>
+</body>
+
+</html>
