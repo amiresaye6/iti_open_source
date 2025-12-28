@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1764853291 source:c:\users\20110\onedrive\desktop\iti_open_source\data_structure_and_algorithims\lab2_postfex_stack_calculation\main.cpp
+	<iostream>
+	<string>
+	<sstream>
+

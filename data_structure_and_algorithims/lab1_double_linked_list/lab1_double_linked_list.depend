@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1764791537 source:c:\users\20110\onedrive\desktop\iti_open_source\data_structure_and_algorithims\lab1_double_linked_list\main.cpp
+	<iostream>
+	<string.h>
+	<windows.h>
+	<conio.h>
+
+1764761869 source:c:\users\20110\onedrive\desktop\iti_open_source\data_structure_and_algorithims\lab1_double_linked_list\menu.cpp
+	<iostream>
+	<windows.h>
+	<conio.h>
+
