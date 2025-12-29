@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>photo galary</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: blanchedalmond;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+            margin-top: 200px;
+        }
+
+        .galary-img {
+            width: 25%;
+            aspect-ratio: 16/9;
+            transition: all .5s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <img class="galary-img" src="./assets/canion.png" alt="alt text :__:">
+        <img class="galary-img" src="./assets/forest.png" alt="alt text :__:">
+        <img class="galary-img" src="./assets/desert.png" alt="alt text :__:">
+        <img class="galary-img" src="./assets/glasier.png" alt="alt text :__:">
+    </div>
+
+
+
+    <script>
+        const container = document.getElementById("container");
+        container.addEventListener('mouseover', (e) => {
+            console.dir(e.target)
+            e.target.style.opacity = 0.3;
+        })
+        container.addEventListener('mouseout', (e) => {
+            console.dir(e.target)
+            e.target.style.opacity = 1;
+
+        })
+
+        document.addEventListener("contextmenu", e => e.preventDefault())
+    </script>
+</body>
+
+</html>
+
+
+<!-- immmediatly function scope expressoin -->
+<!-- ifse -->

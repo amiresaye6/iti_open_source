@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>photo galary</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: blanchedalmond;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+        }
+
+        .galary-img {
+            width: 80%;
+            aspect-ratio: 16/9;
+            border-radius: 20px;
+            border: 2px solid gray;
+        }
+
+        .buttons {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .prev,
+        .next {
+            transition: all 0.5s ease-in-out;
+        }
+
+        .prev {
+            background-color: lightcoral;
+            width: 100px;
+            height: 40px;
+            border: none;
+            border-radius: 10px;
+            color: white;
+        }
+
+        .next {
+            background-color: lightseagreen;
+            width: 100px;
+            height: 40px;
+            border: none;
+            border-radius: 10px;
+            color: white;
+        }
+
+        .prev:hover,
+        .next:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img class="galary-img" id="img" src="./assets/canion.png" alt="alt text :__:">
+        <!-- 
+        <img class="galary-img" src="./assets/forest.png" alt="alt text :__:">
+        <img class="galary-img" src="./assets/desert.png" alt="alt text :__:">
+        <img class="galary-img" src="./assets/glasier.png" alt="alt text :__:">
+         -->
+    </div>
+    <div class="buttons">
+        <button class="next">Next</button>
+        <button class="prev">Previous</button>
+    </div>
+
+
+    <script>
+        const img = document.getElementById("img")
+        const next = document.querySelector(".next")
+        const prev = document.querySelector(".prev")
+
+        let idx = 0;
+        let imgs = [
+            "./assets/forest.png",
+            "./assets/desert.png",
+            "./assets/glasier.png",
+            "./assets/canion.png"
+        ]
+        next.addEventListener("click", (e) => {
+            idx = (idx + 1) % imgs.length;
+            console.dir(img.src = imgs[idx])
+            console.dir(img)
+        })
+
+        prev.addEventListener("click", (e) => {
+            idx = (idx - 1) < 0 ? imgs.length - 1 : idx - 1;
+            console.dir(img.src = imgs[idx])
+            console.dir(img)
+        })
+    </script>
+</body>
+
+</html>
+
+
+<!-- immmediatly function scope expressoin -->
+<!-- ifse -->

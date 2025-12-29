@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 14fr;
+    height: 100lvh;
+    grid-template-areas:
+        "nav header"
+        "nav galary";
+}
+
+/* styling sidebar */
+nav {
+    grid-area: nav;
+    padding: 0 30px;
+}
+
+nav h1 {
+    /* text-align: center; */
+    font-size: 80px;
+    font-weight: 900;
+}
+
+nav .nav-links {
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 10px;
+}
+
+nav .nav-links a {
+    text-decoration: none;
+    color: gray;
+
+}
+
+nav .nav-links a:first-child {
+    /* text-decoration: none; */
+    color: black;
+    font-weight: bold;
+}
+
+
+nav .social-icons {
+    padding: 40px 0px;
+}
+
+nav .social-icons img {
+    padding-right: 20px;
+    border-radius: 50px;
+
+}
+
+nav .text-widget {
+    /* background-color: lightblue; */
+    color: gray;
+    padding-bottom: 40px;
+}
+
+.text-widget h2 {
+    font-size: 18px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+nav .flicker h2 {
+    columns: gray;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.flicker-grid img {
+    width: 30%;
+    height: 33%;
+    object-fit: cover;
+}
+
+/* header stylingt */
+
+header {
+    background-color: burlywood;
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    color: white;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.4s ease-in-out;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+header a:hover {
+    background-color: rgb(253, 240, 223, 0.8);
+    text-decoration: none;
+    color: gray;
+}
+
+header a:first-child {
+    padding: 5px 10px;
+    background-color: rgb(253, 240, 223, 0.8);
+    color: gray;
+}
+
+/* galary section styling */
+
+section {
+    /* background-color: bisque; */
+    grid-area: galary;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center ; */
+    flex-wrap: wrap;
+}
+
+.galary-item {
+    flex: 0 0 25%;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+
+}
+
+.galary-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+

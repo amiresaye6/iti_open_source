@@ -10,8 +10,8 @@ for (let i = 0; i < arrSize; i++) {
     arr.push(Number(element));
 }
 
-let opt = 'exit';
-// let opt = null;
+// let opt = 'exit';
+let opt = null;
 
 while (opt !== "exit") {
     opt = prompt(
@@ -129,8 +129,8 @@ workdCounter5000("     amir alsayed abdulsamea       mohamed    ")
 
 
 // Task 6: User Name and Mobile Validation
-let flag = false;
-// let flag = true;
+// let flag = false;
+let flag = true;
 let mobileInput = "";
 do {
     let checker = /^002\d{3}-\d{7}$/;

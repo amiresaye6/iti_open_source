@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task1</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .input {
+            background-color: white;
+            border-radius: 10px;
+            width: 90%;
+            height: 80lvh;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        #ip {
+            width: 60%;
+            height: 40px;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin: auto;
+        }
+
+        #textarea {
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="input">
+            <input type="text" id="ip">
+            <div class="clock" id="clock">00:00:00</div>
+            <button class="start" id="start">start</button>
+            <textarea name="textarea" id="textarea"></textarea>
+        </div>
+    </div>
+
+
+    <script>
+        const input = document.getElementById("ip");
+        input.addEventListener("keydown", (e) => {
+            console.log(e)
+
+            alert(`you pressed the key code ${e.key} with the code ${e.code}`)
+        })
+        input.addEventListener("mousedown", (e) => {
+            console.log(e)
+            alert(`you pressed on the input with the ${e.button == 0 ? "left button" : "right button"}`)
+        })
+
+        input.addEventListener("keypress", (e) => {
+            if (e.key === 'w')
+                e.stopPropagation()
+        })
+
+        let timerInterval
+
+        const clock = document.getElementById("clock")
+        console.dir(clock)
+        const start = document.getElementById("start").addEventListener("click", (e) => {
+            timerInterval = setInterval(() => {
+                clock.innerText = new Date().toLocaleTimeString();
+            }, 1000)
+        })
+
+
+        window.addEventListener('keypress', (e) => {
+            console.log(e.key == "w")
+            if (e.key == "w") {
+                clearInterval(timerInterval);
+                clock.innerText = "00:00:00";
+                alert("clock stopped after pressign w key")
+            }
+        })
+
+        const textarea = document.getElementById("textarea")
+        textarea.addEventListener("keypress", (e) => {
+            if (e.key >= '0' && e.key <= '9') {
+                e.preventDefault();
+                alert("Number prevented");
+            }
+        })
+
+        textarea.addEventListener("keypress", (e) => {
+            if (e.key === 'w')
+                e.stopPropagation()
+        })
+    </script>
+</body>
+
+</html>

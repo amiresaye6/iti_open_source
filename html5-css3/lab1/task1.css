@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main {
+    width: 100%;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+header {
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: lightblue;
+}
+
+ul {
+    list-style: none;
+}
+
+nav.main-nav {
+
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: darkblue;
+}
+
+
+nav.main-nav ul li {
+    display: inline-block;
+    color: white;
+    margin-right: 10px;
+}
+
+.articles {
+    border: 2px solid black;
+    padding: 10px;
+    width: 70%;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.articles section {
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.articles section:nth-child(odd) {
+    background-color: lightblue;
+}
+
+.articles section:nth-child(even) {
+    background-color: lightgreen;
+}
+
+ul.branches-nav {
+    border: 2px solid black;
+    display: inline-block;
+    vertical-align: top;
+    width: 28%;
+    background-color: lightblue;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+ul.branches-nav li {
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+ul.branches-nav li:nth-child(even)
+{
+    background-color: tomato;
+}
+
+ul.branches-nav li:nth-child(odd)
+{
+background-color: lightgreen;
+}
+
+
+footer {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    background-color: lightblue;
+}
+
+
+/* media queries */
+
+
+@media screen and (max-width: 730px) {
+    ul.branches-nav {
+        width: 100%;
+    }
+
+    .articles {
+        width: 100%;
+    }
+}
