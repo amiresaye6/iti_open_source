@@ -24,6 +24,9 @@
 .is-playing {
     animation-play-state: running !important;
 }
+.is-paused {
+    animation-play-state: paused !important;
+}
 
 .scale-elment {
     transition: transform 1s ease-in-out;

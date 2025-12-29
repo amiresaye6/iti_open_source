@@ -70,7 +70,7 @@
         let timerInterval
 
         const clock = document.getElementById("clock")
-        console.dir(clock)
+        <!-- console.dir(clock) -->
         const start = document.getElementById("start").addEventListener("click", (e) => {
             timerInterval = setInterval(() => {
                 clock.innerText = new Date().toLocaleTimeString();

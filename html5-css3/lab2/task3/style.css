@@ -141,3 +141,40 @@ section {
 
 
 
+
+@media (max-width: 1024px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr;
+        height: 100lvh;
+        grid-template-areas:
+            "header"
+            "galary";
+    }
+
+    nav {
+        display: none;
+    }
+    
+    .galary-item {
+        flex: 0 0 33.33%;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .galary-item {
+        flex: 0 0 50%;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+        nav {
+            display: none;
+        }
+}
