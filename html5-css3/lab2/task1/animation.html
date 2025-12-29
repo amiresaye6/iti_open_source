@@ -11,9 +11,41 @@
 <body>
     <div class="container">
         <div class="scale-elment">
-            <div class="box"></div>
+            <div id="animateBox" class="box"></div>
         </div>
     </div>
+
+    <div class="controls">
+        <button id="play">Play</button>
+        <button id="pause">Pause</button>
+        <button id="stop">Reset</button>
+    </div>
+
+    <script>
+
+        const box = document.getElementById('animateBox');
+        const play = document.getElementById('play');
+        const pause = document.getElementById('pause');
+        const stop = document.getElementById('stop');
+
+        play.addEventListener('click', playAnim)
+        pause.addEventListener('click', pauseAnim)
+        stop.addEventListener('click', stopAnim)
+
+        function playAnim() {
+            box.classList.add('is-playing');
+        }
+
+        function pauseAnim() {
+            box.classList.remove('is-playing');
+        }
+
+        function stopAnim() {
+            box.classList.remove('is-playing');
+
+            box.style.animation = 'none';
+        }
+    </script>
 </body>
 
 </html>
