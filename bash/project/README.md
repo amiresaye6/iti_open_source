@@ -194,7 +194,7 @@ Options:
 
 ## Contributors
 - Amir Alsayed
-- Project Partner (ITI Bash Course)
+- Amir Abdulmaula
 
 ---
 
