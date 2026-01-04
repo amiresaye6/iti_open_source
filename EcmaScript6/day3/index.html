@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&amp;display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+
+    <title>Amirzon</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: "Manrope";
+        }
+
+        body {
+            background-color: #f6f7f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+        }
+
+        #products {
+            margin-top: 30px;
+            width: 80lvw;
+            padding: 20px;
+            background-color: cornsilk;
+            border: none;
+            border-radius: 10px;
+
+        }
+
+        .btn {
+            padding: 10px;
+            background-color: lightslategray;
+            color: white;
+        }
+
+
+        /* styling product details part */
+
+
+        #container {
+            width: 80lvw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+
+        .left,
+        .right {
+            padding-top: 50px;
+            width: 50%;
+            height: 80lvh;
+        }
+
+        .category {
+            background-color: #136dec;
+            opacity: 0.7;
+            padding: 10px;
+            border-radius: 10px;
+            width: 20%;
+            text-align: center;
+            color: white;
+            margin: 10px 0;
+            flex-wrap: wrap;
+            gap: 20px;
+
+        }
+
+        .addToCart {
+            background-color: #136dec;
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+            width: 100%;
+            text-align: center;
+            color: white;
+            margin: 10px 0;
+            transition: all 0.5s ease-in-out;
+        }
+
+        .addToCart:hover {
+            opacity: 0.8;
+        }
+
+        .count {
+            color: gray;
+        }
+
+        .rating {
+            margin: 10px 0;
+        }
+
+        .price {
+            margin: 10px 0;
+            color: #136dec;
+            font-weight: bold;
+
+        }
+
+        .description {
+            color: gray;
+            margin: 10px 0;
+
+        }
+    </style>
+</head>
+
+<body>
+    <script src="index.js" type="module"></script>
+
+    <select name="products" id="products" disabled>
+        <!-- will be added with js -->
+        <option>
+            Loading Products....
+        </option>
+    </select>
+
+    <div id="container">
+       no products selected...
+    </div>
+
+</body>
+
+</html>

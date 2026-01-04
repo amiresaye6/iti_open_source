@@ -3,11 +3,7 @@ let currentIndex = 0;
 
 let videos = [
     "../assets/video/test.mp4",
-    "../assets/video/video2.mp4",
-    "../assets/video/test.mp4",
-    "../assets/video/test.mp4",
-    "../assets/video/video2.mp4",
-    "../assets/video/test.mp4",
+    
     "../assets/video/test.mp4",
     "../assets/video/video2.mp4",
     "../assets/video/test.mp4",
