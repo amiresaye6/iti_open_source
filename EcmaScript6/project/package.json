@@ -1,0 +1,16 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "A full-stack simulation of a crowdfunding ecosystem built with Vanilla JavaScript. This platform facilitates the creation, management, and funding of innovative campaigns while providing administrative tools for platform moderation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3",
+    "json-server-auth": "^2.1.0"
+  }
+}
