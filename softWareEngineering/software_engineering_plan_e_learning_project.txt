@@ -1,0 +1,48 @@
+main stackholders:
+* internal stackholders
+1/ founder || owner
+2/ dev team (احنا يعني)
+3/ customer servise team
+
+* external stackholders
+1/ learner
+2/ supervisor of the learners
+3/ instructor
+4/ center of instructors
+5/ admin of the platform
+
+
+dev model >> incremental
+
+why? 
+	Adding feature gradually
+	Earlier & Easy Testing 
+	Risk Reduction & Easy maintenance 
+	Deal with requirements change 
+	Suitable if platform getting bigger
+	Suitable for medium projects
+	Flexible Priorities
+
+requirements
+	phase one:	
+		authontication and authorization
+		payment ans subscriptions for student, instructor, center
+	phase two:
+		hosting courses
+		monitor progreess of the learner	
+		host online sessions
+
+	phase three:	
+		provide and evaluate exams
+		provide question bank
+		provide certifications
+	
+	phase four:
+		provide study groups sessionis
+		ask private questions to the instrcuctor (premium)
+
+	
+	
+	
+
+	
