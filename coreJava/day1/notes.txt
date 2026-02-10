@@ -1,0 +1,2 @@
+javac example >> will compile the code file and generage the .class files. one for each class
+java
