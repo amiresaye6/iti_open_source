@@ -1,6 +1,6 @@
 public class One {
     public static void main(String[] args) {
-        System.out.println("botato chips");
+        System.out.println("hi there");
 
         for (int i = 0; i < args.length; i++) {
             System.out.print(args[i] + " ");
@@ -22,6 +22,5 @@ class Two {
         } catch (NumberFormatException e) {
             System.out.println("first arg must be a valid number");
         }
-
     }
 }
