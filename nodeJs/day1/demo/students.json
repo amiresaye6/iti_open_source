@@ -1,0 +1,101 @@
+[
+  {
+    "name": "Ahmed Hassan",
+    "address": "123 Main Street, Cairo, Egypt",
+    "grade": "A",
+    "courses": [
+      "Mathematics",
+      "Physics",
+      "Computer Science",
+      "English"
+    ]
+  },
+  {
+    "name": "Sara Mohamed",
+    "address": "456 Park Avenue, Alexandria, Egypt",
+    "grade": "B+",
+    "courses": [
+      "Chemistry",
+      "Biology",
+      "Mathematics",
+      "Arabic"
+    ]
+  },
+  {
+    "name": "Omar Ali",
+    "address": "789 Nile Road, Giza, Egypt",
+    "grade": "A-",
+    "courses": [
+      "Computer Science",
+      "Mathematics",
+      "Physics",
+      "Programming"
+    ]
+  },
+  {
+    "name": "Fatima Ibrahim",
+    "address": "321 Garden Street, Luxor, Egypt",
+    "grade": "B",
+    "courses": [
+      "History",
+      "Geography",
+      "English",
+      "French"
+    ]
+  },
+  {
+    "name": "Youssef Khaled",
+    "address": "654 University Avenue, Aswan, Egypt",
+    "grade": "A",
+    "courses": [
+      "Engineering",
+      "Mathematics",
+      "Physics",
+      "Chemistry"
+    ]
+  },
+  {
+    "name": "shady radwan",
+    "address": "mansoura, Egypt",
+    "grade": "A",
+    "courses": [
+      "nodejs",
+      "express",
+      "mongodb",
+      "react"
+    ]
+  },
+  {
+    "name": "shady radwan",
+    "address": "mansoura, Egypt",
+    "grade": "A",
+    "courses": [
+      "nodejs",
+      "express",
+      "mongodb",
+      "react"
+    ]
+  },
+  {
+    "name": "shady radwan",
+    "address": "mansoura, Egypt",
+    "grade": "A",
+    "courses": [
+      "nodejs",
+      "express",
+      "mongodb",
+      "react"
+    ]
+  },
+  {
+    "name": "shady radwan",
+    "address": "mansoura, Egypt",
+    "grade": "A",
+    "courses": [
+      "nodejs",
+      "express",
+      "mongodb",
+      "react"
+    ]
+  }
+]
