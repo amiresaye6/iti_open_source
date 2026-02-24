@@ -1,0 +1,127 @@
+{
+    "librarian": "Amir Alsayed Abdulsamea",
+    "descriptoni": "this is a description, for my library, pretend it is a valid one pleaes",
+    "location": "my home >> my room",
+    "books": [
+        {
+            "title": "the interesting book",
+            "ISBN": 12346987,
+            "available": true,
+            "parts": [
+                {
+                    "title": "the first interesting part",
+                    "chapteres": [
+                        {
+                            "title": "ch 1",
+                            "summary": "any nonsense text for now, i am done, fasting makes me so dezzy",
+                            "sections": [
+
+                                "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                                "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+                                "ccccccccccccccccccccccccccccccccccccc"
+
+                            ]
+                        }
+                    ]
+                }
+
+            ]
+        },
+        {
+            "title": "the interesting book",
+            "ISBN": 12346987,
+            "available": true,
+            "parts": [
+                {
+                    "title": "the first interesting part",
+                    "chapteres": [
+                        {
+                            "title": "ch 1",
+                            "summary": "any nonsense text for now, i am done, fasting makes me so dezzy",
+                            "sections": [
+
+                                "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                                "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+                                "ccccccccccccccccccccccccccccccccccccc"
+
+                            ]
+                        }
+                    ]
+                }
+
+            ]
+        },
+        {
+            "title": "the interesting book",
+            "ISBN": 12346987,
+            "available": true,
+            "parts": [
+                {
+                    "title": "the first interesting part",
+                    "chapteres": [
+                        {
+                            "title": "ch 1",
+                            "summary": "any nonsense text for now, i am done, fasting makes me so dezzy",
+                            "sections": [
+
+                                "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                                "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+                                "ccccccccccccccccccccccccccccccccccccc"
+
+                            ]
+                        }
+                    ]
+                }
+
+            ]
+        },
+        {
+            "title": "the interesting book",
+            "ISBN": 12346987,
+            "available": true,
+            "parts": [
+                {
+                    "title": "the first interesting part",
+                    "chapteres": [
+                        {
+                            "title": "ch 1",
+                            "summary": "any nonsense text for now, i am done, fasting makes me so dezzy",
+                            "sections": [
+
+                                "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                                "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+                                "ccccccccccccccccccccccccccccccccccccc"
+
+                            ]
+                        }
+                    ]
+                }
+
+            ]
+        },
+        {
+            "title": "the interesting book",
+            "ISBN": 12346987,
+            "available": true,
+            "parts": [
+                {
+                    "title": "the first interesting part",
+                    "chapteres": [
+                        {
+                            "title": "ch 1",
+                            "summary": "any nonsense text for now, i am done, fasting makes me so dezzy",
+                            "sections": [
+
+                                "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                                "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+                                "ccccccccccccccccccccccccccccccccccccc"
+
+                            ]
+                        }
+                    ]
+                }
+
+            ]
+        }
+    ]
+}

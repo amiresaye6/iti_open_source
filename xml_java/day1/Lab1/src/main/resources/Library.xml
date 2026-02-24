@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<library librarian="Amir Alsayed Abdulsamea" location="my home">
+    <description>
+        <![CDATA[
+        Hi there this is my custom library, hop you love it, it contains some interesting books btw
+        ]]>
+    </description>
+    <books>
+        
+        <book>
+            <title>ther first book</title>
+            <author ISBN="5645646465">not amir alsayed</author>
+            <preface>ny thing for now</preface>
+            <status available="true" />
+            <parts>
+                <part>
+                    <title>part one</title>
+                    <chapters>
+                        <chapter>
+                            <title>chapter one</title>
+                            <summary>this is a summary for this part, you know, i do not have any thing to say rn</summary>
+                            <sections>
+                                <section>
+                                    <paragraphs>
+                                        <paragraph>hi ther this is the first chapter, hop you find it interesting</paragraph>
+                                        <paragraph>hi ther this is the first chapter, hop you find it interesting</paragraph>
+                                        <paragraph>hi ther this is the first chapter, hop you find it interesting</paragraph>
+                                        <paragraph>hi ther this is the first chapter, hop you find it interesting</paragraph>
+                                        <paragraph>hi ther this is the first chapter, hop you find it interesting</paragraph>
+                                        <paragraph>hi ther this is the first chapter, hop you find it interesting</paragraph>
+                                        <paragraph>hi ther this is the first chapter, hop you find it interesting</paragraph>
+                                        <paragraph>hi ther this is the first chapter, hop you find it interesting</paragraph>
+                                        <paragraph>hi ther this is the first chapter, hop you find it interesting</paragraph>
+                                    </paragraphs>
+                                </section>
+                                <section>
+                                    <paragraphs>
+                                        <paragraph>hi ther this is the first chapter, hop you find it interesting</paragraph>
+                                        <paragraph>hi ther this is the first chapter, hop you find it interesting</paragraph>
+                                        <paragraph>hi ther this is the first chapter, hop you find it interesting</paragraph>
+                                        <paragraph>hi ther this is the first chapter, hop you find it interesting</paragraph>
+                                        <paragraph>hi ther this is the first chapter, hop you find it interesting</paragraph>
+                                        <paragraph>hi ther this is the first chapter, hop you find it interesting</paragraph>
+                                        <paragraph>hi ther this is the first chapter, hop you find it interesting</paragraph>
+                                        <paragraph>hi ther this is the first chapter, hop you find it interesting</paragraph>
+                                        <paragraph>hi ther this is the first chapter, hop you find it interesting</paragraph>
+                                    </paragraphs>
+                                </section>
+                                <section>
+                                    <paragraphs>
+                                        <paragraph>hi ther this is the first chapter, hop you find it interesting</paragraph>
+                                        <paragraph>hi ther this is the first chapter, hop you find it interesting</paragraph>
+                                        <paragraph>hi ther this is the first chapter, hop you find it interesting</paragraph>
+                                        <paragraph>hi ther this is the first chapter, hop you find it interesting</paragraph>
+                                        <paragraph>hi ther this is the first chapter, hop you find it interesting</paragraph>
+                                        <paragraph>hi ther this is the first chapter, hop you find it interesting</paragraph>
+                                        <paragraph>hi ther this is the first chapter, hop you find it interesting</paragraph>
+                                        <paragraph>hi ther this is the first chapter, hop you find it interesting</paragraph>
+                                        <paragraph>hi ther this is the first chapter, hop you find it interesting</paragraph>
+                                    </paragraphs>
+                                </section>
+                            </sections>
+                        </chapter>
+                    </chapters>
+                </part>
+            </parts>
+        </book>
+</books>
+</library>
