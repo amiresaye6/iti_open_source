@@ -79,7 +79,7 @@ demo/
 │   ├── errorHandler.js
 │   └── validate.js
 └── utils/
-    └── APIError.js
+    └── MyError.js
 ```
 
 #### 3.1 Models Layer (`models/`)
@@ -145,8 +145,8 @@ module.exports = mongoose.model('Post', postSchema);
 **Important:** 
 - Controllers call service functions
 - Controllers handle HTTP responses
-- Use `APIError` class to throw errors (e.g., "Post not found" → `throw new APIError("Post not found", 404)`)
-- Remove all direct `res.status().json()` error responses - use `throw new APIError()` instead
+- Use `MyError` class to throw errors (e.g., "Post not found" → `throw new MyError("Post not found", 404)`)
+- Remove all direct `res.status().json()` error responses - use `throw new MyError()` instead
 
 #### 3.4 Routers Layer (`routers/`)
 
@@ -176,17 +176,17 @@ module.exports = router;
 
 ---
 
-### 4. Implement APIError Class
+### 4. Implement MyError Class
 
 **Tasks:**
-- Create `utils/APIError.js`
+- Create `utils/MyError.js`
 - Create a custom error class that extends `Error`
 - Include `statusCode` and `isClientError` properties
 - Use `Error.captureStackTrace()` for proper stack traces
 
 **Example:**
 ```javascript
-class APIError extends Error {
+class MyError extends Error {
     constructor(message, statusCode) {
         super(message);
         this.statusCode = statusCode || 500;
@@ -195,7 +195,7 @@ class APIError extends Error {
     }
 }
 
-module.exports = APIError;
+module.exports = MyError;
 ```
 
 ---
@@ -204,7 +204,7 @@ module.exports = APIError;
 
 **Tasks:**
 - Create `middlewares/errorHandler.js`
-- Handle `APIError` instances
+- Handle `MyError` instances
 - Handle MongoDB errors:
   - `CastError` (invalid ObjectId format)
   - `MongoServerError` with code `11000` (duplicate key)
@@ -229,19 +229,19 @@ module.exports = APIError;
 - Create `middlewares/validate.js`
 - Accept a schema object that can validate `req.body`, `req.query`, and `req.params`
 - Use Joi to validate each specified part of the request
-- Throw `APIError` with status 400 if validation fails
+- Throw `MyError` with status 400 if validation fails
 - Call `next()` if validation passes
 
 **Example:**
 ```javascript
-const APIError = require('../utils/APIError');
+const MyError = require('../utils/MyError');
 
 module.exports = (schema) => {
     return (req, res, next) => {
         for (const key in schema) {
             const { error } = schema[key].validate(req[key], { abortEarly: true });
             if (error) {
-                throw new APIError(error.details[0].message, 400);
+                throw new MyError(error.details[0].message, 400);
             }
         }
         next();
@@ -513,7 +513,7 @@ Test error handling with:
   - [ ] Services folder with `users.js` and `posts.js`
   - [ ] Controllers folder with `users.js` and `posts.js`
   - [ ] Routers folder with `users.js` and `posts.js`
-- [ ] `APIError` class created in `utils/APIError.js`
+- [ ] `MyError` class created in `utils/MyError.js`
 - [ ] Global error handler middleware created and registered (last middleware)
 - [ ] MongoDB errors handled (CastError, duplicate key, ValidationError)
 - [ ] Validation middleware created (`middlewares/validate.js`)
@@ -522,7 +522,7 @@ Test error handling with:
   - [ ] Post schemas (create, getAll, update)
 - [ ] CORS middleware configured
 - [ ] All CRUD operations working for both Users and Posts
-- [ ] All error responses use `APIError` class (no direct `res.status().json()` for errors)
+- [ ] All error responses use `MyError` class (no direct `res.status().json()` for errors)
 - [ ] Server runs using `npm run dev`
 - [ ] All endpoints tested and working correctly
 
@@ -533,7 +533,7 @@ Test error handling with:
 - **Start small:** Refactor one resource (Users or Posts) completely before moving to the next
 - **Test frequently:** After each major change, test your endpoints to ensure everything still works
 - **Follow the pattern:** Use the Day 3 demo code as a reference for structure and patterns
-- **Error handling:** Remember to throw `APIError` instaed of using the response object
+- **Error handling:** Remember to throw `MyError` instaed of using the response object
 - **Validation:** Use Joi schemas to validate `req.body`, `req.query`, and `req.params` as needed
 - **Environment variables:** Never commit `.env` file to git - always use `.gitignore`
 
