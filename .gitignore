@@ -1,3 +1,4 @@
 LinkedInPosts/
 node_modules/
 .env
+*.class
