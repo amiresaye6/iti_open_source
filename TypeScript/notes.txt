@@ -1,0 +1,32 @@
+{} type is not an object, it refers to any value except null and undefined
+ex:
+let botato: {}; >> can have any value except null and undefined
+
+enums >>
+enum Role {
+    admin,
+    botato,
+    chips,
+    hamada
+}
+here the ts compiler will give admin the value 0 by default, if we specify value for it , it will assing the next to the next value and so on
+so 
+ex: 
+
+enum Role {
+    admin, >> default 0
+    botato, >> default 1
+    chips, >> default 2
+    hamada >> default 3
+}
+
+enum Role {
+    admin = 5 >> default 5
+    botato, >> default 6
+    chips, >> default 7
+    hamada >> default 8
+}
+
+we can use it like so
+let user: Role  = 6 >> means botato
+user = Role.hamada >> with the value of 8
