@@ -41,4 +41,15 @@ let myEmp = {
     age: "23"
 };
 print(myEmp.name + myEmp.age?.toString());
+let widget = {
+    drag: () => {
+        console.log("drag fuc");
+    },
+    resize: () => {
+        console.log("resize fuc");
+    }
+};
+widget.drag();
+let myDimention = "cm";
+print(myDimention);
 //# sourceMappingURL=index.js.map
