@@ -31,4 +31,8 @@
             {{ 'booked' in course ? "Booked" : "Book now" }}
         </button>
     </div>
+    <button [routerLink]="['/course', course.id]" 
+          class="flex-1 w-full mt-2 text-center py-2 px-3 text-sm font-semibold text-slate-600 bg-slate-100 rounded-xl hover:bg-slate-200 transition-colors">
+    Details
+  </button>
 </div>
